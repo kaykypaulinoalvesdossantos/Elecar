@@ -744,7 +744,23 @@ img {
   right: -5.5rem;
 }
 /*=============== LOGOS ===============*/
+.logo__img{
+  width: 40px;
+  opacity: .4;
+  transition: .3s;
+}
 
+.logo__container{
+  grid-template-columns: repeat(3, max-content);
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding-bottom: 2rem;
+}
+
+.logo__img:hover{
+  opacity: 1;
+}
 
 /*=============== FOOTER ===============*/
 
