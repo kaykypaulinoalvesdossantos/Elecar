@@ -518,8 +518,70 @@ img {
 }
 
 /*=============== FEATURES ===============*/
+.features{
+  overflow: hidden;
+  position: relative;
+}
 
+.features__container{
+  padding: 2rem;
+  grid-template-columns: 285px;
+  justify-content: center;
+}
 
+.features__group{
+  display: grid;
+  position: relative;
+  z-index: 10;
+}
+
+.features__img{
+  width: 150px;
+  justify-self: center;
+}
+
+.features__card{
+  width: 112px;
+  background-color: hsla(0, 0%, 100%, .1);
+  backdrop-filter: blur(16px);
+  border-radius: 1.5rem;
+  padding: .75rem 2rem;
+  text-align: center;
+  color: var(--title-color);
+  position: absolute;
+}
+.features__card-1{
+  top: 4rem;
+  left: 1.5rem;
+}
+
+.features__card-2{
+  top: 8rem;
+  right: 1rem;
+}
+
+.features__card-3{
+  left: 1.5rem;
+  bottom: 2rem;
+}
+
+.features__card-title{
+  font-size: var(--h3-font-size);
+  margin-bottom: .25rem;
+}
+
+.features__card-description{
+  font-size: var(--smaller-font-size);
+}
+
+.features__map{
+  max-width: initial;
+  width: 450px;
+  position: absolute;
+  top: 8rem;
+  margin: auto;
+  transform: rotate(-22deg);
+}
 /*=============== FEATURED ===============*/
 
 
