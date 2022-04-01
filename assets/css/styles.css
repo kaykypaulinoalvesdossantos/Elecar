@@ -439,6 +439,7 @@ img {
   padding: 2rem 1.5rem 1.5rem;
   border-radius: 1rem;
   margin-bottom: 3.5rem;
+  transition: .3s;
   overflow: hidden;
 }
 
@@ -446,6 +447,7 @@ img {
   position: absolute;
   top: -2.5rem;
   left: -2.5rem;
+
 }
 
 .popular__title,
